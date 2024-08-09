@@ -1,0 +1,26 @@
+# Ignore virtual environment directories
+venv/
+env/
+.new_malware_detection_env/
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Distribution / packaging
+build/
+dist/
+*.egg-info/
+
+# Ignore .env files with environment variables
+.env
+
+# Ignore system files
+.DS_Store
+
+# Ignore log files
+*.log
+
+# Ignore Docker intermediate files
+**/.dockerignore
